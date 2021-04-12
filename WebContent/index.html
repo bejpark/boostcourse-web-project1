@@ -1,10 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bejpark</title>
+  <link rel="stylesheet" href="css/index.css"/>
+  <style>
+  .main.title{
+  margin:5vh 0;
+  }
+  .map{
+  height:60vh;
+  }
+  .map img{
+  height:100%;
+  }
+  .sub-navigation{
+  margin:50px;
+  }
+  .sub-menu a{
+  padding:30px;
+  }</style>
 </head>
 <body>
-
+  <header class=header>
+    <nav class = main-navigation>
+     <ul class = main-menu>
+     <li><a href="http://localhost:8080/aboutme/index.html">홈</a></li>
+     <li><a href="http://localhost:8080/aboutme/aboutme.html">자기소개</a></li>
+     <li><a href="http://localhost:8080/aboutme/photo.html">내 사진</a></li>
+     <li><a href="http://localhost:8080/aboutme/today.html">시간</a></li>
+     </ul>
+    </nav>
+ </header>
+ <main class=main>
+ 	<h1 class=title>My Name is Bejpark</h1>
+ 	<p> 거주지</p>
+ 	<nav class =sub-navigation>
+	 	<ul class=sub-menu>
+	 	<li><a href="http://localhost:8080/aboutme/aboutme.html">자기소개</a></li>
+	 	<li><a href="http://localhost:8080/aboutme/photo.html">내 사진</a></li>
+	 	</ul>
+ 	</nav>
+ 	<figure class=map>
+ 		<img
+ 			src="images/map.png"
+ 			alt=중앙대학교
+ 			/>
+ 	</figure>
+ </main>
+ <footer class=footer>
+ 		<a href="https://github.com/bejpark">github</a>
+ 		<a href="https://www.instagram.com/bejpark">instagram</a>
+ </footer>
 </body>
 </html>
