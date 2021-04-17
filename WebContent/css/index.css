@@ -1,14 +1,18 @@
 @charset "UTF-8";
 
+
 .header{
+	background-color:white;
 	height:8vh;
 	position:relative;
 }
 
 .main{
+	background-color:#fff;
 	height:90vh;
 	position:relative;
 }
+
 
 .main-navigation{
 	text-align:right;
@@ -34,6 +38,7 @@
 .main-menu li,
 .sub-menu li{
 	display:inline-block;
+
 }
 
 .main-menu a{
@@ -43,6 +48,7 @@
 
 .main,
 .footer{
+	background-color:#fff;
 	text-align:center;
 }
 
