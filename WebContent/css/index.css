@@ -8,9 +8,10 @@
 }
 
 .main{
-	background-color:#fff;
-	height:90vh;
 	position:relative;
+	text-align:center;
+	background-color:white;
+	max-height:80vh;
 }
 
 
@@ -21,7 +22,6 @@
 	right:0;
 	transform:translateY(-50%);
 }
-
 .main a,
 .header a{
 	background: #9bc1ff;
@@ -30,6 +30,7 @@
 	box-shadow:1px;
 	text-decoration:None;
 }
+.main a:hover,
 .header a:hover{
 	color:white;
 	text-decoration:None;
@@ -46,17 +47,15 @@
 	margin:10px 5px;
 }
 
-.main,
 .footer{
 	background-color:#fff;
+	margin-top:2vh;
 	text-align:center;
-}
-
-.footer{
 	height:8vh;
 	position:relavite;
 	margin-bottom:2vh;
 }
+
 
 .footer a{
 	display:block;

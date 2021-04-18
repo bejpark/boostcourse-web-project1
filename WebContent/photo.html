@@ -6,6 +6,29 @@
  <link rel="stylesheet" href="css/index.css"/>
 
 <style>
+.main section{
+	margin:5vh 5vw;
+	text-align:left;
+}
+.main article{
+	height: 30vh;
+}
+
+.photos figure img,
+.photos figure figcaption{
+	float:left;
+	margin:10px;
+}
+.photos figure{
+	width:100%;
+	margin:5vh 0;
+}
+.photos figure img{
+	width:20%;
+	height:20%;
+	border:3px;
+	border:3px solid #aaa;
+}
 </style>
 </head>
 <body bgcolor=#9bc1ff>
@@ -15,7 +38,7 @@
      <li><a href="http://localhost:8080/aboutme/index.html">홈</a></li>
      <li><a href="http://localhost:8080/aboutme/aboutme.html">자기소개</a></li>
      <li><a href="http://localhost:8080/aboutme/photo.html">내 사진</a></li>
-     <li><a href="http://localhost:8080/aboutme/today.html">시간</a></li>
+     <li><a href="http://localhost:8080/aboutme/today">시간</a></li>
      </ul>
     </nav>
  </header>
@@ -24,16 +47,17 @@
  <section class=photos>
  	<article>
  		<figure>
- 		<img src="images/1.JPG" width=50%>
+ 		<img src="images/1.JPG">
  		<figcaption>
  		<p>2020.01.01</p>
  		good
  		</figcaption>
  		</figure>
  	</article>
+ 	<hr>
 	 <article>
 	 	<figure>
-	 	<img src="images/2.JPG" width=50%>
+	 	<img src="images/2.JPG">
 	 	<figcaption>
 	 	<p>2021.01.01</p>
 	 	this is me
